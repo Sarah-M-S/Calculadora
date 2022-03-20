@@ -70,9 +70,12 @@ void main(){
 				}else
 				if(tolower(opc) == 'n'){
 					printf("\nObg por usar essa calculadora!");
+				}else
+				if(opc!='s'||opc!='S'||opc!='n'||opc!='N'){				
+				}   
+					printf("Parece que você não digitou uma opção válida.\nAgora a calculadora irá fechar, obg!");
 					break;
-				}
-			
+				
 			case 2: printf("Digite o primeiro número: ");
 			scanf(" %f", &num1);
 			printf("Digite o segundo número: ");
@@ -87,6 +90,9 @@ void main(){
 				}else
 				if(tolower(opc) == 'n'){
 					printf("\nObg por usar essa calculadora!");
+				}else
+				if(opc!='s'||opc!='S'||opc!='n'||opc!='N'){
+					printf("Parece que você não digitou uma opção válida.\nAgora a calculadora irá fechar, obg!");
 					break;
 				}
 		
@@ -104,9 +110,12 @@ void main(){
 				}else
 				if(tolower(opc)=='n'){
 					printf("\nObg por usar essa calculadora!");
+				}else
+				if(opc!='s'||opc!='S'||opc!='n'||opc!='N'){
+					printf("Parece que você não digitou uma opção válida.\nAgora a calculadora irá fechar, obg!");
 					break;
 				}
-			
+				
 			case 4: printf("Digite o primeiro número: ");
 			scanf(" %f", &num1);
 			printf("Digite o segundo número: ");
@@ -121,9 +130,12 @@ void main(){
 				}else
 				if(tolower(opc)=='n'){
 					printf("\nObg por usar essa calculadora!");
+				}else
+				if(opc!='s'||opc!='S'||opc!='n'||opc!='N'){
+					printf("Parece que você não digitou uma opção válida.\nAgora a calculadora irá fechar, obg!");
 					break;
 				}
-				
+	
 	}
 	}
 	

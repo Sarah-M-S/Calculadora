@@ -64,11 +64,11 @@ void main(){
 			printf("%2.f + %2.f = %2.f", num1, num2, soma);
 						printf("\n\nDeseja continuar?\n\nS ou N: ");
 			scanf(" %c", &opc);
-				if(opc=='S'||opc=='s'){
+				if(tolower(opc) == 's'){
 					system("cls");
 					goto menu;
 				}else
-				if(opc=='N'||opc=='n'){
+				if(tolower(opc) == 'n'){
 					printf("\nObg por usar essa calculadora!");
 					break;
 				}
@@ -81,11 +81,11 @@ void main(){
 			printf("%2.f - %2.f = %2.f", num1, num2, sub);
 						printf("\n\nDeseja continuar?\n\nS ou N: ");
 			scanf(" %c", &opc);
-				if(opc=='S'||opc=='s'){
+				if(tolower(opc) == 's'){
 					system("cls");
 					goto menu;
 				}else
-				if(opc=='N'||opc=='n'){
+				if(tolower(opc) == 'n'){
 					printf("\nObg por usar essa calculadora!");
 					break;
 				}
@@ -98,11 +98,11 @@ void main(){
 			printf("%2.f * %2.f = %2.f", num1, num2, mult);
 						printf("\n\nDeseja continuar?\n\nS ou N: ");
 			scanf(" %c", &opc);
-				if(opc=='S'||opc=='s'){
+				if(tolower(opc)=='s'){
 					system("cls");
 					goto menu;
 				}else
-				if(opc=='N'||opc=='n'){
+				if(tolower(opc)=='n'){
 					printf("\nObg por usar essa calculadora!");
 					break;
 				}
@@ -115,11 +115,11 @@ void main(){
 			printf("%2.f / %2.f = %.2f\n", num1, num2, div);
 			printf("\n\nDeseja continuar?\n\nS ou N: ");
 			scanf(" %c", &opc);
-				if(opc=='S'||opc=='s'){
+				if(tolower(opc)=='s'){
 					system("cls");
 					goto menu;
 				}else
-				if(opc=='N'||opc=='n'){
+				if(tolower(opc)=='n'){
 					printf("\nObg por usar essa calculadora!");
 					break;
 				}
